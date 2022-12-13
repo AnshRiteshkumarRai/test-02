@@ -1,0 +1,60 @@
+@media only screen and (max-width: 560px) {
+    body{
+        margin:0;
+        padding:0;
+        align-items:center;
+    }
+    #main-content
+    {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #main-content> main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #main-content> main>figure{
+        width: 350pt;
+
+    }
+
+    #main-header h1
+    {
+        font-size: 50pt;
+        text-align: center;
+        
+    }
+    #main-content img
+{
+    width: 150px;
+    float: center;
+   margin-right: 8em;
+    
+}
+    #main-nav ul{
+        padding-left: 0em;
+    }
+    #main-content p{
+        width: 100%;
+
+    }
+
+    main-content>main{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    aside{
+        width: 100%;
+        margin:0;
+    }
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
